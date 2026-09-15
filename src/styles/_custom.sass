@@ -1,109 +1,272 @@
-@use 'variables' as *
 .banner-principal-decorativo
   &-1
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 70%
+    left: 20%
+    width: 100px
+  &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 68%
-    left: -10%
-    width: 20%
-  &-2
-    animation: float1 2.5s ease-in-out infinite alternate
+    top: 41%
+    left: 0
+    width: 100px
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 30%
+    top: 21%
     right: 10%
-    width: 20%
-
+    width: 80px
 
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
     transform: translateY(0px)
-
+  
 ///////////CUSTOM BANNER PRINCIPAL E INTERNO/////////////
 .banner-principal .tarjeta
   background-position: left 50% !important
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: $color-sistema-texto !important
+  color: white !important
 
 .banner-interno__titulo__icono i
   color: $color-primario
 
-figcaption, table caption
-  font-weight: normal
+figcaption, caption
+  font-weight: normal !important
 
 .banner-principal__row .banner-principal__img
   width: 500px !important
   @media screen and (max-width: $bp-max-xl)
     width: 400px !important
 
+table td
+  text-align: start !important
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+  color: $color-sistema-texto !important
 .banner-interno__fondo
   background-image: url("../assets/curso/banner_interno.png") !important
-  background-color: $color-primario !important
 .banner-principal .tarjeta
-  @media screen and (max-width: $bp-max-md)
+  background-image: url("../assets/curso/portada/fondo-banner-principal-xs.png") !important
+  @media screen and (min-width: $bp-min-sm)
     background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
-  @media screen and (max-width: $bp-max-xs)
-    background-image: url("../assets/curso/portada/fondo-banner-principal-xs.png") !important
 
-.text-end 
-    text-align: left !important
+//Backgrounds
+.bg-primario-claro
+  background-color: $color-primario-claro
+.bg-primario-medio
+  background-color: $color-primario-medio
+.bg-primario-oscuro
+  background-color: $color-primario-oscuro
+.bg-secundario-medio
+  background-color: $color-secundario-medio
+.bg-secundario-claro
+  background-color: $color-secundario-claro
+.bg-secundario-light
+  background-color: #FDFCF9
+.bg-secundario-extra-claro
+  background-color: #F6F1E5
+.bg-terciario-medio
+  background-color: $color-terciario-medio
+.bg-terciario
+  background-color: $color-terciario
+.bg-azul-oscuro
+  background-color: #12263F
+.bg-franja
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background-color: #BCEFEA
+    background-repeat: no-repeat
+    background-size: contain
+    @media screen and ( min-width: 992px )
+      top: 30px
+      height: 80%
+  &--fullheight
+    &::before
+      @media screen and ( min-width: 992px )
+        top: 0
+        height: 100%
 
-/**************************************************************/
-/***CUSTOM STYLES***/
-/**************************************************************/
-.p-full-width
-  padding: 3rem 3.5rem!important;
-.bg-full-width
+.bg-slider-f
+  background-image: url(../assets/curso/common/bg-purple-square.png)
+  background-position: left center
   background-size: cover
   background-repeat: no-repeat
-  background-position: bottom
-  margin-inline: -3.3rem
-.bg-fondo
-  &-1
-    //background-image: url(../assets/curso/bg/3.svg)
-.bg-color
-  &-1
-    background-color: $color-primario
 
+.fullwidth-bg
+  display: none
+  @media screen and (min-width: 768px)
+    display: block
+  position: relative
+  z-index: 0
 
+  &--1::after
+    top: 10px
+    left: -50px
+    position: absolute
+    content: url('../assets/curso/common/bg-1.png')
+    
+  &--2::after
+    top: 200px
+    left: -50px
+    position: absolute
+    content: url('../assets/curso/common/bg-2.png')
 
+// Image width
+.img-85
+  max-width: 85px
+  margin: 0 auto
+.img-95
+  max-width: 95px
+  margin: 0 auto
+.img-120
+  max-width: 120px
+  margin: 0 auto
+.img-140
+  max-width: 140px
+  margin: 0 auto
+.img-180
+  max-width: 180px
+  margin: 0 auto
+.img-205
+  max-width: 205px
+  margin: 0 auto
+.img-225
+  max-width: 225px
+  margin: 0 auto
+.img-250
+  max-width: 250px
+  margin: 0 auto
+.img-300
+  max-width: 300px
+  margin: 0 auto
+.img-360
+  max-width: 360px
+  margin: 0 auto
 
+.text-primario
+  color: $color-primario
+.text-terciario
+  color: $color-terciario
+.text-secundario-variante
+  color: #E9DCBF
 
+// MIS CUSTOMS  
+.slider-wrapper
+  position: relative
+  .bg-fullwidth
+    background-image: url(../assets/curso/common/bg-slider.png)
+    background-position: center
+    background-size: cover
+    position: absolute
+    top: -40px
+    left: -47px
+    bottom: -20px
+    right: -60px
+    width: calc( 100% + 96px )
+    height: calc( 100% + 80px )
+    border-radius: 20px
+  .slyder-a__btn--atrs, .slyder-a__btn--sigt
+    background-color: #FF7E5D
+    border-color: #FF7E5D
+    background-image: url(../assets/bullets/arrow-white.svg)
+  .slyder-a__bullets__item
+    background-color: #CBC232
+    border-color: #CBC232
+    opacity: 0.5
+    &--active
+      opacity: 1
 
+.z-2
+  position: relative
+  z-index: 2
+.accesibilidad
+  z-index: 3
 
-/**************************************************************/
-/*Media Queries*/  
-/**************************************************************/
+.slyder-f
+  .slyder-f__btn i
+    color: #FF7E5D
 
-//// DESKTOP SMALL 1400--------------------------------------
-@media screen and (max-width: $bp-min-xxl)
-  .mb-cus
-    margin-bottom: 2em  !important 
+.mb-6
+  margin-bottom: 6rem
 
-//// TABLET 992--------------------------------------
-@media screen and (max-width: $bp-max-md)
-  .mb-cus
-    margin-bottom: 2em  !important  
-  .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
-    width: 90% !important
+.tarjeta-label
+  &__icon
+    top: 50%
+    left: 0
+    transform: translate(-50%, -50%)
 
-  
- 
-  
-//// TABLET MINI 768--------------------------------------
-@media screen and (max-width: $bp-min-md)
-  .mb-cus
-    margin-bottom: 2em  !important  
+.custom-mh
+  height: -webkit-fill-available
 
-  
+.etiqueta-title
+  position: relative
+  overflow: hidden
+  z-index: 2
+  background-image: url(../assets/curso/common/bg-title.png)
+  background-position: right center
+  background-size: cover
+  padding-right: 100px
+  padding: 12px 100px 14px 15px
+  display: block
+  width: fit-content
 
-//// MOBILE 576--------------------------------------
-@media screen and (max-width: $bp-min-sm)
-  .mb-cus
-    margin-bottom: 2em  !important
+.custom-acordeon
+  background-color: #FAF9EA
+  &.acordion__activo
+    background-image: url("../assets/curso/common/bg-purple-horizontal.png") !important
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    background-color: #DBE3FB
 
-  
- 
+.tabs-a__tab
+  background-color: #DBE3FB
+  &__selected
+    color: #fff !important
+.tabs-a__content-item
+  height: 100%
+
+.custom-tabs
+  .tabs-a
+    @media (min-width: 1200px) 
+      .row
+        .col-xl-3 
+          flex: 0 0 auto
+          width: 30%
+        .col-xl-9
+          flex: 0 0 auto
+          width: 70%
+    @media (min-width: 992px) 
+      .row
+        .col-lg-4 
+          flex: 0 0 auto
+          width: 35%
+        .col-lg-8 
+          flex: 0 0 auto
+          width: 65%
+
+.tabs-b__tab
+  background-color: $color-primario-claro
+
+.tabs-b__content-item
+  background-color: #FDFCF9
+
+.tabs-b__tab.tabs-b__tab--active
+  background-color: #FDFCF9
+
+.tabla-a table
+  width: 100%
+  min-width: 1100px

@@ -1,17 +1,22 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.svg',
-    fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
+    Name: 'Recepción de requerimientos de clientes',
+    Description:
+      'Identificar la importancia de los requerimientos en una organización es indispensable, ya que a través de ellos, la empresa gestiona sus relaciones con los clientes. En este sentido, la recepción de los requerimientos que da nombre a este componente se constituye en el paso inicial, dado que es el momento en el que el agente de servicio formaliza que ha recibido por parte del cliente una solicitud.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/portada/banner-principal-decorativo-1.svg',
+        clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
       },
       {
-        clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/portada/banner-principal-decorativo-2.svg',
+        clases: ['banner-principal-decorativo-1'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -31,39 +36,37 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'La organización empresarial',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Subtema 1',
-            hash: 't_1_1',
-          },
-        ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Sistemas de información',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Bases de datos',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Tema 4',
+        titulo: 'Requerimientos',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema5',
         numero: '5',
-        titulo: 'Tema 5',
+        titulo: 'Objeciones',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema6',
+        numero: '6',
+        titulo: 'Informes',
         desarrolloContenidos: true,
       },
     ],
@@ -85,6 +88,11 @@ export default {
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
       },
+      // {
+      //   nombreRuta: 'complementario',
+      //   icono: 'far fa-folder-open',
+      //   titulo: 'Material complementario',
+      // },
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
@@ -93,7 +101,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/135333_CF3_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -109,14 +117,99 @@ export default {
   },
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Actitud',
+      significado:
+        'Valoraciones favorables o desfavorables, opiniones y tendencias que sistemáticamente presenta una persona respecto a un objeto o idea.',
+    },
+    {
+      termino: 'Bases de datos',
+      significado:
+        'Conjunto de datos relacionados con un determinado aspecto de un negocio que se almacena sistemáticamente para un uso específico.',
+    },
+    {
+      termino: 'BI',
+      significado:
+        'Sigla alusiva a la inteligencia de negocios (<em>business intelligence</em>). Es el conjunto de aplicaciones, herramientas, análisis y conocimientos que permiten a la empresa conocer información oportuna para la toma de decisiones de negocio.',
+    },
+    {
+      termino: '<em>Billing</em>',
+      significado:
+        'Es el término acuñado a nivel técnico para hacer relación a los sistemas de información, cuya finalidad es la facturación.',
+    },
+    {
+      termino: 'Moda',
+      significado:
+        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+    },
+    {
+      termino: 'Cliente',
+      significado:
+        'Es el centro de la estrategia de la empresa. Representa a la persona o empresa que adquiere los bienes y servicios.',
+    },
+    {
+      termino: 'CRM',
+      significado:
+        'Sigla alusiva a la Administración de las Relaciones con los Clientes <em>(Customer Relationship Management).</em> Como sistema de información permiten tener consolidada, organizada y disponible la información de los clientes.',
+    },
+    {
+      termino: 'Empatía',
+      significado:
+        'Principio básico necesario para la interacción con clientes, consiste en ponerse en el lugar del otro, sin perder la objetividad.',
+    },
+    {
+      termino: 'Empresa',
+      significado: 'Estructura económica sobre la cual funciona la economía.',
+    },
+    {
+      termino: 'ERP',
+      significado:
+        'Sigla asociada al sistema de planificación de recursos empresariales <em>(enterprise resource planning).</em> A nivel de sistema de información permite que la empresa tenga sistematizados varios procesos.',
+    },
+    {
+      termino: 'Objeciones',
+      significado:
+        'Mecanismos utilizados por los clientes para ahondar en el proceso de ventas, ya sea para conocer y validar información o para desistir de la transacción.',
+    },
+    {
+      termino: 'Satisfacción del cliente',
+      significado:
+        'Grado en el que el desempeño percibido de un producto o servicio coincide con las expectativas del comprador.',
+    },
+    {
+      termino: 'Servicio',
+      significado:
+        'Es la combinación de varias cualidades (intangibles) como desempeño, esfuerzo, atención y otros tangibles como un trato amable, un obsequio, los muebles de la sala de recibo, entre otros.',
+    },
+    {
+      termino: 'Sistema de información',
+      significado:
+        'Conjunto de aplicaciones que permiten administrar información de interés para las empresas.',
+    },
+    {
+      termino: 'Valor',
+      significado:
+        'Asignación monetaria que da un cliente a un producto en función de la necesidad que satisface o de la usabilidad que representa.',
     },
   ],
   referencias: [
     {
-      referencia: 'REF',
-      link: 'LINK',
+      referencia: 'Ardila, E. (1984), Técnicas de ventas: objeciones. SENA.',
+    },
+    {
+      referencia:
+        'Presidencia de Colombia. (1971). Decreto 410 de 1971, por el cual se expide el Código de Comercio. ',
+      link:
+        'https://www.camarabaq.org.co/wp-content/uploads/2021/03/CodigodeComercio-2.pdf',
+    },
+    {
+      referencia: 'Navarro, M. (2012). Técnicas de ventas. ',
+      link:
+        'https://www.aliat.click/BibliotecasDigitales/economico_administrativo/Tecnicas_de_venta.pdf',
+    },
+    {
+      referencia:
+        'Viña. A. (2005). Atención y servicio al cliente con nuevas tecnologías de información y comunicación. SENA.',
+      link: 'https://repositorio.sena.edu.co/handle/11404/2345',
     },
   ],
   creditos: [
@@ -126,7 +219,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Profesional G06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
+            'Responsable del Ecosistema de Recursos Educativos Digitales (RED)',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -140,19 +233,32 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor metodológico y pedagógico',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+          nombre: 'Diana Carolina Jaramillo Rojas',
+          cargo: 'Experta temática',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+          nombre: 'Gloria Amparo López Escudero',
+          cargo: 'Diseñadora instruccional',
+          centro:
+            'Centro de la Industria, la Empresa y los Servicios Regional - Norte de Santander',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Asesor metodológico',
+          centro: 'Centro de Diseño y Metrología Regional - Distrito Capital',
+        },
+        {
+          nombre: 'Julia Isabel Roberto',
+          cargo: 'Correctora de estilo',
+          centro: 'Centro de Diseño y Metrología Regional - Distrito Capital',
         },
       ],
     },
@@ -160,24 +266,60 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+          nombre: 'Carmen Alicia Martínez Torres ',
+          cargo: 'Diseñador web',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico ',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+          nombre: 'Yuly Rey ',
+          cargo: 'Diseñador web',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Alexander Rafael Acosta Bedoya',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+          nombre: 'Fabio Fonseca Arguelles',
+          cargo: 'Desarrollador <em>full stack</em>',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico ',
         },
+
         {
           nombre: 'Nelson Iván Vera Briceño',
           cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+        },
+        {
+          nombre: 'Zuleidy María Ruíz Torres',
+          cargo: 'Producción audiovisual',
+          centro: 'Centro de Comercio y Servicios Regional - Tolima',
+        },
+        {
+          nombre: 'Wilson Andrés Arenales Cáceres',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+        },
+        {
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+        },
+        {
+          nombre: 'Laura Ximena Hurtado Villalba',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+        },
+        {
+          nombre: 'Carlos Andrés Díaz Pinto',
+          cargo: 'Desarrollo Front-end',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+        },
+        {
+          nombre: 'Emilsen Alfonso Bautista',
+          cargo: 'Validación de diseño y contenido',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
@@ -196,12 +338,12 @@ export default {
         },
         {
           nombre: 'Jonathan Adié Villafañe',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          cargo: 'Validador y vinculador de recursos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Karine Isabel Ospino Fritz',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          cargo: 'Validador y vinculador de recursos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
