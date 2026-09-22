@@ -140,7 +140,6 @@
           span Sistemas de información transversales
         img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema2/11-mob.svg", alt="El sistema de información transversal se compone: la automatización de procesos, la integración entre plataformas, flexibilidad para la implementación, información en tiempo real y generación de reportes.")
         img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema2/11.svg", alt="El sistema de información transversal se compone: la automatización de procesos, la integración entre plataformas, flexibilidad para la implementación, información en tiempo real y generación de reportes.")
-        figcaption <strong>Nota.</strong> SENA, (2026).
 
     .row.justify-content-center
       .col-xl-10
@@ -149,7 +148,7 @@
 
     .row.justify-content-center.mb-4.mb-lg-5
       .col-xl-10
-        p Los S.I. con enfoque al cliente se denominan Customer Relationship Management y son identificados en el ámbito empresarial como CRM. Este sistema permite tener consolidada, organizada y disponible la información de los clientes, de tal forma que el agente de servicio pueda revisar la información del cliente, cómo ha sido el comportamiento con el portafolio de la empresa y cómo son sus interacciones con los puntos de contacto; lo anterior, permitirá en el momento de tener alguna interacción con el cliente ser lo más empático y asertivo posible.
+        p Los S.I. con enfoque al cliente se denominan <em>Customer Relationship Management</em> y son identificados en el ámbito empresarial como CRM. Este sistema permite tener consolidada, organizada y disponible la información de los clientes, de tal forma que el agente de servicio pueda revisar la información del cliente, cómo ha sido el comportamiento con el portafolio de la empresa y cómo son sus interacciones con los puntos de contacto; lo anterior, permitirá en el momento de tener alguna interacción con el cliente ser lo más empático y asertivo posible.
         p.mb-0 Algunos de los atributos que tiene un sistema tipo CRM son los siguientes:
 
     SlyderF(columnas="col-lg-6 col-xl-4").mb-5.z-2

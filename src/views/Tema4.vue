@@ -69,7 +69,7 @@
     figure.mb-5
       .video.mb-2
         iframe(width="560" height="315" src="https://www.youtube.com/embed/08qeBEzkXCs" title="Tipo de requerimientos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Tipo de requerimientos
+ 
 
     .row.justify-content-center.mb-4.mb-lg-5
       .col-xl-10
@@ -122,8 +122,8 @@
       .tarjeta.bg-primario-claro.p-4(titulo="Felicitaciones")
         .row.align-items-center.p-4
           .col-12
-            p.mb-0 Son la forma que tiene un cliente de dar a conocer a la empresa que desde su óptica está haciendo bien las cosas. Técnicamente, las felicitaciones expresadas de manera formal (es decir, a través de algún canal de la compañía), es la mejor representación de la satisfacción del cliente, lastimosamente, en nuestra cultura son menos frecuentes.
-
+            p Son la forma que tiene un cliente de dar a conocer a la empresa que desde su óptica está haciendo bien las cosas. Técnicamente, las felicitaciones expresadas de manera formal (es decir, a través de algún canal de la compañía), es la mejor representación de la satisfacción del cliente, lastimosamente, en nuestra cultura son menos frecuentes.
+            p.mb-0 Continuando con este aprendizaje, se detalla los demás tipos de requerimientos que se abordan en las empresas, por favor consulte lo que se expone a continuación:
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-4.col-lg-4.col-xl-3.d-none.d-lg-block
         figure
@@ -176,7 +176,7 @@
           span Flujo para la atención de requerimientos
         img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema4/12-mob.svg", alt="Se detalla en la figura el flujo de atención de requerimientos así: inicio, el agente verifica la identidad del usuario o cliente, el cliente o usuario es quien dice ser, el requerimiento tiene alcance si o no?, el agente tiene alcance para dar solución? ingresar gestión en sistema de información o base de datos, fin.")
         img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema4/12.svg", alt="Se detalla en la figura el flujo de atención de requerimientos así: inicio, el agente verifica la identidad del usuario o cliente, el cliente o usuario es quien dice ser, el requerimiento tiene alcance si o no?, el agente tiene alcance para dar solución? ingresar gestión en sistema de información o base de datos, fin.")
-        figcaption <strong>Nota.</strong> SENA, (2026).
+
           
     .row.justify-content-center.mb-4.mb-lg-5
       .col-xl-10

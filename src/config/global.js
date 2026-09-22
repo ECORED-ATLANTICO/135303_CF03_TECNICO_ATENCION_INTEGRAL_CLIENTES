@@ -101,7 +101,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/135333_CF3_DU.zip',
+        download: 'downloads/135303_CF03_CFA.zip',
       },
       {
         icono: 'fas fa-download',
@@ -219,7 +219,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Responsable del Ecosistema de Recursos Educativos Digitales (RED)',
+            'Profesional G06. Responsable Ecosistema de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -267,12 +267,12 @@ export default {
       autores: [
         {
           nombre: 'Carmen Alicia Martínez Torres ',
-          cargo: 'Diseñador web',
+          cargo: 'Diseñadora web',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico ',
         },
         {
           nombre: 'Yuly Rey ',
-          cargo: 'Diseñador web',
+          cargo: 'Diseñadora web',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
@@ -328,12 +328,12 @@ export default {
       autores: [
         {
           nombre: 'Luz Karime Amaya Cabra',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Laura Daniela Burgos Rueda',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
@@ -343,7 +343,7 @@ export default {
         },
         {
           nombre: 'Karine Isabel Ospino Fritz',
-          cargo: 'Validador y vinculador de recursos digitales',
+          cargo: 'Validadora y vinculadora de recursos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],

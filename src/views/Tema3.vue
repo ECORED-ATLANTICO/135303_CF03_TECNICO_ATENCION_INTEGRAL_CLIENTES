@@ -27,7 +27,7 @@
           span Estructura de una base de datos
         img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema3/3.png", alt="En la figura se detalla los datos agrupados mediante tablas, cada una con columnas y filas.")
         img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema3/2.png", alt="En la figura se detalla los datos agrupados mediante tablas, cada una con columnas y filas.")
-        figcaption <strong>Nota.</strong> SENA, (2026).
+  
 
     .row.justify-content-center.mb-4.mb-lg-5
       .col-xl-10
@@ -40,7 +40,6 @@
           span Ejemplo de una tabla de clientes de una empresa
         .tabla-a.color-primario
           table
-            caption #[strong Nota.] SENA, (2026).
             thead
               tr(style="background-color: #F6F8FE")
                 th Apellido
@@ -213,14 +212,14 @@
               .row.justify-content-center.mb-3
                 .col-8
                   img.img-120.mb-4(src='@/assets/curso/tema3/12.svg' alt='AvatarTop')
-              h5.text-center.mb-4 Rol Administrador
+              h5.text-center.mb-4 Rol administrador
               p.text-center Es aquel que tiene la facultad de realizar cualquier tipo de acciones sobre la base de datos, asociado tanto a los datos como a los usuarios.
           .col-md-6.col-lg-4.mb-4.mb-lg-0
             .tarjeta.bg-slider-f.p-4.custom-mh
               .row.justify-content-center.mb-3
                 .col-8
                   img.img-120.mb-4(src='@/assets/curso/tema3/13.svg' alt='AvatarTop')
-              h5.text-center.mb-4 Rol de Registro y Edición
+              h5.text-center.mb-4 Rol de registro y edición
               p.text-center Este tipo de roles están asociados a aquellos usuarios que ingresan, procesan y/o modifican los datos.
           .col-md-6.col-lg-4
             .tarjeta.bg-slider-f.p-4.custom-mh
