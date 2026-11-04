@@ -11,7 +11,7 @@
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-sm-8.col-lg-4
         figure
-          img.mb-4.mb-lg-0(data-aos="fade-down-right", src="@/assets/curso/tema3/1.png", alt="descripcion")
+          img.mb-4.mb-lg-0(data-aos="fade-down-right", src="@/assets/curso/tema3/1.png", alt="")
       .col-lg-8
         p  Las bases de datos conocidas con las siglas BD (español) o DB (en inglés) o BBDD en términos informáticos, son estructuras diseñadas principalmente para recopilar y alojar información de diferentes tipos. En este sentido, podría afirmarse que varias bases de datos con fines específicos conforman en conjunto, es decir, un sistema de información. 
         p.mb-0 Hoy en día las bases de datos son una herramienta importante en la gestión empresarial, dado que a través de ellas es posible alojar, actualizar o ingresar información, y de acuerdo con esto tienen usabilidad tanto para realizar actividades individuales como colectivas dentro de la organización. Asimismo, permiten capturar información de los clientes logrando de esta manera tener procesos estandarizados y centralizados para los datos que se generan en la compañía. También, agrupan los datos de la empresa, posibilita que los datos sean compartidos entre los colaboradores, y con esto tener procesos más estructurados y almacenar gran volumen de información.
@@ -96,14 +96,14 @@
       .col-md-6.col-lg-4.col-xl-3
         .tarjeta-container.mb-4.custom-mh
           .position-relative.bg-secundario-medio.p-4.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.flex-column.justify-content-center
-            img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema2/1.svg' alt='AvatarTop')
+            img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema2/1.svg' alt='')
             h5.ms-4 Variabilidad
             p.ms-4.mb-0 Estáticas.
             p.ms-4.mb-0 Dinámicas.
       .col-md-6.col-lg-4.col-xl-3
         .tarjeta-container.mb-4.custom-mh
           .position-relative.bg-secundario-medio.p-4.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.flex-column.justify-content-center
-            img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema2/2.svg' alt='AvatarTop')
+            img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema2/2.svg' alt='')
             h5.ms-4 Según el contenido
             p.ms-4.mb-0 Bibliográficas.
             p.ms-4.mb-0 De texto completo.
@@ -111,7 +111,7 @@
       .col-md-6.col-lg-4.col-xl-3
         .tarjeta-container.mb-4.custom-mh
           .position-relative.bg-secundario-medio.p-4.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.flex-column.justify-content-center
-            img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema2/3.svg' alt='AvatarTop')
+            img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema2/3.svg' alt='')
             h5.ms-4 Según los modelos
             p.ms-4.mb-0 Transaccionales.
             p.ms-4.mb-0 Relacionales.
@@ -128,13 +128,13 @@
     .row.justify-content-center.align-items-stretch.mb-4.mb-lg-5
       .col-md-8.col-lg-6.mb-4.mb-lg-0
         .rounded-4.overflow-hidden.h-100
-          img(data-aos="fade-up", src="@/assets/curso/tema3/7.png", alt="imagen de acompañamiento")
+          img(data-aos="fade-up", src="@/assets/curso/tema3/7.png", alt="")
           .bg-secundario-medio.p-4.custom-mh
             h5 Estáticas
             p.mb-0 Son diseñadas exclusivamente con fines de lectura, almacenamiento y registro de datos históricos, sin embargo, luego son susceptibles de uso para análisis de proyecciones y comportamientos de una determinada variable. Por ejemplo, la empresa puede tener una base de datos del histórico de devoluciones que se han realizado en el último año, dicha información puede ser consultada o ser utilizada para dimensionar los recursos necesarios con el fin de poder atender dichos trámites al año siguiente. En este caso, la variable son las devoluciones y la utilidad será predecir la cantidad de agentes necesarios para atender este tipo de solicitudes.
       .col-md-8.col-lg-6
         .rounded-4.overflow-hidden.h-100
-          img(data-aos="fade-up", src="@/assets/curso/tema3/8.png", alt="imagen de acompañamiento")
+          img(data-aos="fade-up", src="@/assets/curso/tema3/8.png", alt="")
           .bg-secundario-medio.p-4.custom-mh
             h5 Dinámicas
             p.mb-0 Las cuales por su misma denominación son lo opuesto de las estáticas, ya que, si permiten realizar ajustes o modificaciones en la información registrada, dicho de otra manera, los datos que se ingresan pueden ser actualizados, eliminados o complementados. A nivel de ejemplo, se toma el caso de la base de datos de los datos de contacto de un cliente, esta es una información que cambia fácilmente, por lo que debe ser susceptible de actualizar en el momento que se requiera.
@@ -174,17 +174,17 @@
       .col-md-6.col-lg-4.col-xl-3
         .tarjeta-container.mb-4.custom-mh
           .position-relative.bg-secundario-medio.p-4.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.flex-column.justify-content-center
-            img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema3/9.svg' alt='AvatarTop')
+            img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema3/9.svg' alt='')
             p.ms-4.mb-0 #[strong Las transaccionales]
       .col-md-6.col-lg-4.col-xl-3
         .tarjeta-container.mb-4.custom-mh
           .position-relative.bg-secundario-medio.p-4.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.flex-column.justify-content-center
-            img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema3/10.svg' alt='AvatarTop')
+            img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema3/10.svg' alt='')
             p.ms-4.mb-0 #[strong Las relacionales]
 
     .row.justify-content-center.mb-4.mb-lg-5
       .col-xl-10
-        p.mb-0 Las bases de datos #[strong transaccionales] están orientadas a todo tipo de procesos, tanto básicos como complejos y tienen como característica fundamental que realizan una función determinada, adicionalmente que tienen la ventaja que envían y decepcionan datos a gran velocidad. Por su parte, las bases de datos #[strong relacionales], que son hoy en día las más utilizadas optimizan los procesos al interior de las tablas, es decir, el centro de este modelo son las “relaciones” entre datos.
+        p.mb-0 Las bases de datos #[strong transaccionales] están orientadas a todo tipo de procesos, tanto básicos como complejos y tienen como característica fundamental que realizan una función determinada, adicionalmente que tienen la ventaja que envían y reciben datos a gran velocidad. Por su parte, las bases de datos #[strong relacionales], que son hoy en día las más utilizadas optimizan los procesos al interior de las tablas, es decir, el centro de este modelo son las “relaciones” entre datos.
 
     .row.justify-content-center.mb-4.mb-lg-5
       .col-xl-10
@@ -198,7 +198,7 @@
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-sm-8.col-lg-4
         figure
-          img.mb-4.mb-lg-0(data-aos="fade-down-right", src="@/assets/curso/tema3/11.png", alt="imagen de acompañamiento")
+          img.mb-4.mb-lg-0(data-aos="fade-down-right", src="@/assets/curso/tema3/11.png", alt="")
       .col-lg-8
         p En términos operativos de bases de datos, se entiende registro de información como el proceso mediante el cual una persona o un bot (robot que hace tareas operativas) ingresa información en un sistema, lo cual va originando algo que se conoce como “alimentar” la base de datos y es realizado a través de un usuario, que es aquella persona que tiene la potestad de ingresar a una DB o a un S.I.
         p.mb-0 Para el registro de información en la base de datos se deben tener presente los roles, entendidos estos como el tipo de accesos que se permiten a cada usuario, en este sentido asociado al tratamiento de bases de datos a nivel estándar se tienen los siguientes roles:
@@ -211,21 +211,21 @@
             .tarjeta.bg-slider-f.p-4.custom-mh
               .row.justify-content-center.mb-3
                 .col-8
-                  img.img-120.mb-4(src='@/assets/curso/tema3/12.svg' alt='AvatarTop')
+                  img.img-120.mb-4(src='@/assets/curso/tema3/12.svg' alt='')
               h5.text-center.mb-4 Rol administrador
               p.text-center Es aquel que tiene la facultad de realizar cualquier tipo de acciones sobre la base de datos, asociado tanto a los datos como a los usuarios.
           .col-md-6.col-lg-4.mb-4.mb-lg-0
             .tarjeta.bg-slider-f.p-4.custom-mh
               .row.justify-content-center.mb-3
                 .col-8
-                  img.img-120.mb-4(src='@/assets/curso/tema3/13.svg' alt='AvatarTop')
+                  img.img-120.mb-4(src='@/assets/curso/tema3/13.svg' alt='')
               h5.text-center.mb-4 Rol de registro y edición
               p.text-center Este tipo de roles están asociados a aquellos usuarios que ingresan, procesan y/o modifican los datos.
           .col-md-6.col-lg-4
             .tarjeta.bg-slider-f.p-4.custom-mh
               .row.justify-content-center.mb-3
                 .col-8
-                  img.img-120.mb-4(src='@/assets/curso/tema3/14.svg' alt='AvatarTop')
+                  img.img-120.mb-4(src='@/assets/curso/tema3/14.svg' alt='')
               h5.text-center.mb-4 Rol de consulta
               p.text-center Estos usuarios pueden ingresar a la base de datos con la finalidad de detallar la información y algunos casos, bajar información; sin embargo, no pueden modificar.
 
@@ -238,13 +238,13 @@
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.g-0
       .col-8.col-md-4.col-lg-2.col-xl-2
         figure
-          img(data-aos="fade-down-right", src="@/assets/curso/tema3/15.svg", alt="imagen de acompañamiento")
+          img(data-aos="fade-down-right", src="@/assets/curso/tema3/15.svg", alt="")
       .col-lg-8.col-xl-6
         .p-4.bg-secundario-extra-claro
           p.mb-0 #[strong Diana Carolina] es agente de servicio enfocada en la recepción de pedidos, por tanto, desde su rol de registro y edición tiene un perfil para ingresar pedidos, mientras que #[strong María Valentina] que es una agente de servicio en el #[em contact center], enfocada en brindar información a los clientes tiene asociado a su rol de consulta un perfil para consultar los pedidos de los clientes.
       .col-8.col-md-4.col-lg-2.col-xl-2
         figure
-          img(data-aos="fade-down-right", src="@/assets/curso/tema3/16.svg", alt="imagen de acompañamiento")
+          img(data-aos="fade-down-right", src="@/assets/curso/tema3/16.svg", alt="")
 
 
     .row.justify-content-center.mb-4.mb-lg-5
@@ -263,17 +263,17 @@
     .row.justify-content-center.align-items-stretch.mb-4.mb-lg-5
       .col-md-8.col-lg-6.mb-4.mb-lg-0
         .rounded-4.overflow-hidden.h-100
-          img(data-aos="fade-up", src="@/assets/curso/tema3/17.png", alt="imagen de acompañamiento")
+          img(data-aos="fade-up", src="@/assets/curso/tema3/17.png", alt="")
           .bg-secundario-medio.p-4.custom-mh
-            h5 #[em Back-up]
-            p Las empresas deben tener por su seguridad un #[em back-up] (respaldo), que permita que en caso de que se tenga alguna falla técnica de tipo informático, sea posible seguir contando con la información.
-            p.mb-0 Técnicamente los #[em back-up] tienen por fin garantizar que la misma información se encuentre disponible mínimo en dos repositorios diferentes, ya sea físicos (instalaciones de la empresa) o en la nube (servidores por fuera de ella), esto permitirá hacer frente a los ataques informáticos o errores humanos.
+            h5 #[em Backup]
+            p Las empresas deben tener por su seguridad un #[em backup] (respaldo), que permita que en caso de que se tenga alguna falla técnica de tipo informático, sea posible seguir contando con la información.
+            p.mb-0 Técnicamente los #[em backup] tienen por fin garantizar que la misma información se encuentre disponible mínimo en dos repositorios diferentes, ya sea físicos (instalaciones de la empresa) o en la nube (servidores por fuera de ella), esto permitirá hacer frente a los ataques informáticos o errores humanos.
       .col-md-8.col-lg-6
         .rounded-4.overflow-hidden.h-100
-          img(data-aos="fade-up", src="@/assets/curso/tema3/18.png", alt="imagen de acompañamiento")
+          img(data-aos="fade-up", src="@/assets/curso/tema3/18.png", alt="")
           .bg-secundario-medio.p-4.custom-mh
-            h5 ISO 27001 de 2013
-            p.mb-0 Las empresas enfocadas en garantizar buenos procesos de gestión de la información cuentan con la ISO 27001 de 2013, que está enfocada en dar lineamientos sobre cómo las organizaciones deberán gestionar la información de forma segura y si bien las Normas ISO no son obligatorias, sí se convierten en lineamientos para las buenas prácticas empresariales.
+            h5 ISO/IEC 27001:2022
+            p.mb-0 Las organizaciones pueden implementar un Sistema de Gestión de la Seguridad de la Información (SGSI) conforme a la norma ISO/IEC 27001:2022, que establece requisitos para gestionar los riesgos relacionados con la seguridad de la información. Su aplicación contribuye a proteger la confidencialidad, integridad y disponibilidad de los datos, mediante la evaluación de riesgos y la implementación de controles de seguridad. Las organizaciones pueden adoptar esta norma como marco de gestión y, si lo consideran pertinente, solicitar la certificación correspondiente.
 
 
 

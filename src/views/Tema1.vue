@@ -40,7 +40,7 @@
                 img(src='@/assets/curso/tema1/1.png', alt='')
           .row.z-2.justify-content-center.align-items-center
             .col-lg-5
-              p.mb-4.mb-lg-0 Una vez teniendo clara su perspectiva económica y su perspectiva social, las organizaciones proceden a definir su planeación estratégica, la cual define los elementos empresariales sobre los cuales operará la empresa, planeación que se convierte a su vez en su principal herramienta de gestión.
+              p.mb-4.mb-lg-0 Una vez teniendo clara su perspectiva económica y su perspectiva social, las organizaciones definen su planeación estratégica, la cual define los elementos empresariales sobre los cuales operará la empresa, planeación que se convierte a su vez en su principal herramienta de gestión.
             .col-lg-6
               figure
                 img(src='@/assets/curso/tema1/4.png', alt='')
@@ -53,8 +53,9 @@
           .row.z-2.justify-content-center.align-items-center
             .col-lg-6
               p En el siguiente ejemplo se mostrará cómo el Servicio Nacional de Aprendizaje (SENA) define dos de los elementos clave de su planeación estratégica, la misión y la visión:
-              p #[strong Misión:] el SENA está encargado de cumplir la función que le corresponde al Estado de invertir en el desarrollo social y técnico de los trabajadores colombianos, ofreciendo y ejecutando la formación profesional integral, para la incorporación y el desarrollo de las personas en actividades productivas que contribuyan al desarrollo social, económico y tecnológico del país (Ley 119/1994).
-              p.mb-4.mb-lg-0 #[strong Visión:] en el año 2022 el SENA se consolidará como una entidad referente de formación integral para el trabajo, por su aporte a la empleabilidad, el emprendimiento y la equidad, que atiende con pertinencia y calidad las necesidades productivas y sociales del país.
+              p #[strong Misión:] el SENA asume la inversión del Estado en el desarrollo social y técnico de los trabajadores colombianos mediante formación profesional integral para incorporarlos en actividades productivas que impulsen el desarrollo nacional (Ley 119/1994).
+              p.mb-1.mb-lg-0 #[strong Visión:] hacia el 2026, el SENA busca liderar la cualificación del talento humano nacional e internacionalmente impulsando la formación, el empleo, el emprendimiento y el reconocimiento de aprendizajes previos.
+              p.mb-4.mb-lg-0 Busca generar valor público y fortalecer economías campesinas, populares, verdes y digitales enfocándose en la transformación productiva, soberanía alimentaria, paz total, autonomía territorial y justicia social, ambiental y económica.
             .col-6.col-lg-5
               figure
                 img(src='@/assets/curso/tema1/14.png', alt='')
@@ -154,21 +155,21 @@
             .tarjeta.bg-slider-f.p-4.h-100
               .row.justify-content-center.mb-3
                 .col-8
-                  img.img-120.mb-4(src='@/assets/curso/tema1/11.svg' alt='AvatarTop')
+                  img.img-120.mb-4(src='@/assets/curso/tema1/11.svg' alt='')
               h5.text-center.mb-4 Compromiso por parte de la dirección
               p.text-center Definir política de discapacidad. Socializarlas con los colaboradores en todos los niveles.
           .col-md-6.col-lg-4.mt-4.mt-sm-0
             .tarjeta.bg-slider-f.p-4.h-100
               .row.justify-content-center.mb-3
                 .col-8
-                  img.img-120.mb-4(src='@/assets/curso/tema1/12.svg' alt='AvatarTop')
+                  img.img-120.mb-4(src='@/assets/curso/tema1/12.svg' alt='')
               h5.text-center.mb-4 Documentar el protocolo de discapacidad
               p.text-center Documentar el protocolo incluyendo glosario, alcance y acciones a realizar. 
           .col-md-6.col-lg-4.mt-4.mt-lg-0
             .tarjeta.bg-slider-f.p-4.h-100
               .row.justify-content-center.mb-3
                 .col-8
-                  img.img-120.mb-4(src='@/assets/curso/tema1/13.svg' alt='AvatarTop')
+                  img.img-120.mb-4(src='@/assets/curso/tema1/13.svg' alt='')
               h5.text-center.mb-4 Garantizar la implementación del protocolo
               p.text-center Realizar seguimiento a cómo está operando el protocolo y cómo es evaluado el tema por parte de la población impactada.
 

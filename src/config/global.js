@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Recepción de requerimientos de clientes',
     Description:
-      'Identificar la importancia de los requerimientos en una organización es indispensable, ya que a través de ellos, la empresa gestiona sus relaciones con los clientes. En este sentido, la recepción de los requerimientos que da nombre a este componente se constituye en el paso inicial, dado que es el momento en el que el agente de servicio formaliza que ha recibido por parte del cliente una solicitud.',
+      'Identificar la importancia de los requerimientos en una organización es indispensable, ya que a través de ellos la empresa gestiona sus relaciones con los clientes. En este sentido, la recepción de los requerimientos que da nombre a este componente se constituye en el paso inicial, dado que es el momento en el que el agente de servicio formaliza que ha recibido por parte del cliente una solicitud.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -236,29 +236,29 @@ export default {
           nombre: 'Rafael Neftalí Lizcano Reyes',
           cargo: 'Asesor metodológico y pedagógico',
           centro:
-            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Diana Carolina Jaramillo Rojas',
           cargo: 'Experta temática',
           centro:
-            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Gloria Amparo López Escudero',
           cargo: 'Diseñadora instruccional',
           centro:
-            'Centro de la Industria, la Empresa y los Servicios Regional - Norte de Santander',
+            'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
         },
         {
           nombre: 'Andrés Felipe Velandia Espitia',
           cargo: 'Asesor metodológico',
-          centro: 'Centro de Diseño y Metrología Regional - Distrito Capital',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
         {
           nombre: 'Julia Isabel Roberto',
           cargo: 'Correctora de estilo',
-          centro: 'Centro de Diseño y Metrología Regional - Distrito Capital',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
       ],
     },
@@ -290,25 +290,25 @@ export default {
         {
           nombre: 'Zuleidy María Ruíz Torres',
           cargo: 'Producción audiovisual',
-          centro: 'Centro de Comercio y Servicios Regional - Tolima',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
           nombre: 'Wilson Andrés Arenales Cáceres',
           cargo: 'Producción audiovisual',
           centro:
-            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Gilberto Junior Rodríguez Rodríguez',
           cargo: 'Producción audiovisual',
           centro:
-            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Laura Ximena Hurtado Villalba',
           cargo: 'Producción audiovisual',
           centro:
-            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Carlos Andrés Díaz Pinto',

@@ -17,32 +17,32 @@
       .tarjeta.bg-slider-f.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img.img-120(src='@/assets/curso/tema6/1.svg' alt='AvatarTop')
+            img.img-120(src='@/assets/curso/tema6/1.svg' alt='')
         h5.text-center Objetivo
         p.text-center Cuál es la razón que origina la presentación del documento.
       .tarjeta.bg-slider-f.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img.img-120(src='@/assets/curso/tema6/2.svg' alt='AvatarTop')
+            img.img-120(src='@/assets/curso/tema6/2.svg' alt='')
         h5.text-center Destinatario
         p.text-center A quién está dirigido el informe.
       .tarjeta.bg-slider-f.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img.img-120(src='@/assets/curso/tema6/3.svg' alt='AvatarTop')
+            img.img-120(src='@/assets/curso/tema6/3.svg' alt='')
         h5.text-center Desarrollo de la temática
         p.text-center Se aborda el tema objetivo del informe, para ello se sugiere la incorporación de gráficos, indicadores y tablas, que ayuden a un mejor entendimiento.
       .tarjeta.bg-slider-f.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img.img-120(src='@/assets/curso/tema6/4.svg' alt='AvatarTop')
+            img.img-120(src='@/assets/curso/tema6/4.svg' alt='')
         h5.text-center Conclusiones y/o recomendaciones
         p.text-center Este punto constituye el valor agregado de los informes y está orientado en conocer de una forma técnica cuál es la percepción de los grandes resultados del informe y cuáles son las opciones de mejora que se identifican.
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-6.col-lg-4.d-none.d-lg-block
         figure
-          img.mb-4.mb-lg-0(data-aos="fade-down-right", src="@/assets/curso/tema6/4.png", alt="imagen de acompañamiento")
+          img.mb-4.mb-lg-0(data-aos="fade-down-right", src="@/assets/curso/tema6/4.png", alt="")
       .col-lg-8
         p A nivel de formatos, la mayoría de informes son realizados en programas de ofimática, tipo procesador de datos (Word) o tipo presentación (PowerPoint) y entregados en formato no editable (tipo PDF). No obstante, las empresas que implementan informes o reportes en aplicaciones de inteligencia de negocios (BI) acuden a la herramienta de visualización, con el fin de tener la información de forma digital y en tiempo real, lo anterior se conoce como #[em dashboards] o tableros de visualización, cada vez más implementados en las compañías.
         p.mb-0 Algunas de las aplicaciones de la inteligencia de negocios, que tienen componente de visualización de información son Power BI (de Microsoft), Qlik y Tableau.
@@ -59,7 +59,7 @@
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-6.col-lg-3.col-xl-2
         figure
-          img.mb-4.mb-lg-0(data-aos="fade-down-right", src="@/assets/curso/tema6/5.svg", alt="imagen de acompañamiento")
+          img.mb-4.mb-lg-0(data-aos="fade-down-right", src="@/assets/curso/tema6/5.svg", alt="")
       .col-lg-9.col-xl-8
         TabsA.color-primario(data-aos="fade-down")
           .tarjeta.bg-primario-claro.p-4(titulo="Expositivos")

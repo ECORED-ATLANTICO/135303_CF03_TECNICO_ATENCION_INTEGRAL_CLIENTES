@@ -14,17 +14,17 @@
       .col-md-10.col-lg-6.col-xl-4
         .tarjeta-container.mb-4.custom-mh
           .position-relative.bg-secundario-medio.p-4.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-            img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema2/1.svg' alt='AvatarTop')
+            img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema2/1.svg' alt='')
             p.ms-4.mb-0 Son un #[strong conjunto de aplicaciones que permiten administrar información] de interés para las empresas.
       .col-md-10.col-lg-6.col-xl-6
         .tarjeta-container.mb-4.custom-mh
           .position-relative.bg-secundario-medio.p-2.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-            img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema2/2.svg' alt='AvatarTop')
+            img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema2/2.svg' alt='')
             p.ms-5.mb-0 Es el uso aplicado de la #[strong tecnología en pro de la agilidad de los procesos y personas] que realizan operaciones o transacciones en una organización.
       .col-md-10.col-lg-6.col-xl-6
         .tarjeta-container.mb-4.custom-mh
           .position-relative.bg-secundario-medio.p-4.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-            img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema2/3.svg' alt='AvatarTop')
+            img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema2/3.svg' alt='')
             p.ms-4.mb-0 Es un sistema de tipo informático que posibilita la #[strong obtención, gestión y administración de la información de una forma ordenada y lógica], y con un fin determinado.
 
     .fullwidth-bg.fullwidth-bg--1
@@ -44,7 +44,7 @@
           .row.align-items-center
             .col-4.col-md-3.col-lg-2
               figure
-                img.mb-4.mb-lg-0(src='@/assets/curso/tema2/4.svg', alt='Texto que describa la imagen')
+                img.mb-4.mb-lg-0(src='@/assets/curso/tema2/4.svg', alt='')
             .col-md-8.col-lg-9.align-items-center
               div  
                 p.mb-0 Permiten #[strong procesar] la información y generar nuevos datos de interés para la compañía.
@@ -54,11 +54,11 @@
                 p.text-start.mb-4.mb-lg-0 Permite tener #[strong control] sobre la información a nivel organizacional y de usuarios.
             .col-4.col-md-3.col-lg-2
               figure
-                img(src='@/assets/curso/tema2/5.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema2/5.svg', alt='')
           .row.align-items-center
             .col-4.col-md-3.col-lg-2
               figure
-                img.mb-4.mb-lg-0(src='@/assets/curso/tema2/6.svg', alt='Texto que describa la imagen')
+                img.mb-4.mb-lg-0(src='@/assets/curso/tema2/6.svg', alt='')
             .col-md-8.col-lg-9
               div  
                 p.mb-0 Posibilita la #[strong distribución] de la información asociado al uso de permisos y ambientes de colaboración.
@@ -68,11 +68,11 @@
                 p.text-start.mb-4.mb-lg-0 Permiten #[strong obtener datos] de diversas fuentes de información de la empresa tanto internas como externas. 
             .col-4.col-md-3.col-lg-2
               figure
-                img(src='@/assets/curso/tema2/7.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema2/7.svg', alt='')
           .row.align-items-center
             .col-4.col-md-3.col-lg-2
               figure
-                img.mb-4.mb-lg-0(src='@/assets/curso/tema2/8.svg', alt='Texto que describa la imagen')
+                img.mb-4.mb-lg-0(src='@/assets/curso/tema2/8.svg', alt='')
             .col-md-8.col-lg-9
               div  
                 p.mb-0 #[strong Almacenan] la información de una forma centralizada y segura.
@@ -82,7 +82,7 @@
                 p.text-start.mb-4.mb-lg-0 Permite #[strong administrar la información] desde la lógica de procesos, por lo que la consolidación de la información es un beneficio sustancial.
             .col-4.col-md-3.col-lg-2
               figure
-                img(src='@/assets/curso/tema2/9.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema2/9.svg', alt='')
 
 
     .row.justify-content-center.mb-4.mb-lg-5
@@ -103,7 +103,7 @@
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-4.col-lg-4.col-xl-3.d-none.d-lg-block
         figure
-          img.mb-4.mb-lg-0(data-aos="fade-down-right", src="@/assets/curso/tema2/10.png", alt="descripcion")
+          img.mb-4.mb-lg-0(data-aos="fade-down-right", src="@/assets/curso/tema2/10.png", alt="")
       .col-lg-8.col-xl-7
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta custom-acordeon")
           .row(titulo="ERP")
@@ -155,31 +155,31 @@
       .tarjeta.bg-slider-f.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img.img-120.mb-4(src='@/assets/curso/tema2/12.svg' alt='AvatarTop')
+            img.img-120.mb-4(src='@/assets/curso/tema2/12.svg' alt='')
         h5.text-center.mb-4 Vista única del cliente
         p.text-center Los CRM permiten agrupar la información del cliente integrando ventas, mercadeo y servicio al cliente.
       .tarjeta.bg-slider-f.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img.img-120.mb-4(src='@/assets/curso/tema2/13.svg' alt='AvatarTop')
+            img.img-120.mb-4(src='@/assets/curso/tema2/13.svg' alt='')
         h5.text-center.mb-4 Optimización de procesos comerciales
         p.text-center Los CRM utilizan los #[em workflow] (flujos de trabajo) para eliminar la necesidad de dedicar tiempo a tareas repetitivas.
       .tarjeta.bg-slider-f.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img.img-120.mb-4(src='@/assets/curso/tema2/14.svg' alt='AvatarTop')
+            img.img-120.mb-4(src='@/assets/curso/tema2/14.svg' alt='')
         h5.text-center.mb-4 Seguridad de la información
         p.text-center Los sistemas CRM tienen protocolos de seguridad que garantizan que la información siempre estará disponible para la empresa.
       .tarjeta.bg-slider-f.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img.img-120.mb-4(src='@/assets/curso/tema2/15.svg' alt='AvatarTop')
+            img.img-120.mb-4(src='@/assets/curso/tema2/15.svg' alt='')
         h5.text-center.mb-4 Análisis de información
         p.text-center Al integrar toda la información de los clientes permite realizar agrupaciones para identificar subsegmentos o nichos de clientes y generar campañas de telemercadeo.
       .tarjeta.bg-slider-f.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img.img-120.mb-4(src='@/assets/curso/tema2/16.svg' alt='AvatarTop')
+            img.img-120.mb-4(src='@/assets/curso/tema2/16.svg' alt='')
         h5.text-center.mb-4 Gestión del flujo comercial
         p.text-center Permite disponer de diferentes opciones y etapas personalizadas de acuerdo con el modelo comercial de la empresa y los flujos de ventas.
 
@@ -229,28 +229,28 @@
             .row.align-items-center.p-4
               .col-12.col-lg-3.align-items-center.mb-3.mb-lg-0
                 figure.justify-center
-                  img.img-95(src='@/assets/curso/tema2/17.svg', alt='Texto que describa la imagen')
+                  img.img-95(src='@/assets/curso/tema2/17.svg', alt='')
               .col-12.col-lg-9
                 p.mb-0  Los sistemas de BI permiten importar bases de datos desde otras aplicaciones a partir de exportes que suelen ser muy sencillos.
           .tarjeta.bg-primario-claro.p-4(titulo="Información en tiempo real")
             .row.align-items-center.p-4
               .col-12.col-lg-3.align-items-center.mb-3.mb-lg-0
                 figure.justify-center
-                  img.img-95(src='@/assets/curso/tema2/18.svg', alt='Texto que describa la imagen')
+                  img.img-95(src='@/assets/curso/tema2/18.svg', alt='')
               .col-12.col-lg-9    
                 p.mb-0 Este es un atributo general de los sistemas de información; sin embargo, es particularmente relevante en temas de BI, dado que el fin último es tener elementos certeros para la toma de decisiones empresariales.
           .tarjeta.bg-primario-claro.p-4(titulo="Son herramientas colaborativas")
             .row.align-items-center.p-4
               .col-12.col-lg-3.align-items-center.mb-3.mb-lg-0
                 figure.justify-center
-                  img.img-95(src='@/assets/curso/tema2/19.svg', alt='Texto que describa la imagen')
+                  img.img-95(src='@/assets/curso/tema2/19.svg', alt='')
               .col-12.col-lg-9    
                 p.mb-0 Gracias a que la mayoría de estos sistemas están en la nube, (es decir, están técnicamente en servidores por fuera de la empresa soportados en Internet), ello facilita que los colaboradores de la empresa puedan acceder a los distintos informes que se generan desde dichos aplicativos.
           .tarjeta.bg-primario-claro.p-4(titulo="Alcance de visualización")
             .row.align-items-center.p-4
               .col-12.col-lg-3.align-items-center.mb-3.mb-lg-0
                 figure.justify-center
-                  img.img-95(src='@/assets/curso/tema2/20.svg', alt='Texto que describa la imagen')
+                  img.img-95(src='@/assets/curso/tema2/20.svg', alt='')
               .col-12.col-lg-9    
                 p.mb-0 La visualización es el nombre técnico con el cual se conoce el procesamiento, la agrupación y consolidación de los datos para que sean vistos y entendidos por los usuarios. Hoy en día los sistemas de BI tienen grandes bondades en cuanto a este tema, ya que a través de métricas, gráficos y tablas se indica de forma estética y precisa la información.
 
@@ -259,7 +259,7 @@
         .d-flex.flex-column.flex-lg-row.justify-content-center.align-items-center.p-4(style="background-color: #FDFCF9;")
           .col-md-6.col-lg-5
             figure
-              img.img-300.mb-4.mb-lg-0(data-aos="fade-down-right", src="@/assets/curso/tema2/21.svg", alt="descripcion")
+              img.img-300.mb-4.mb-lg-0(data-aos="fade-down-right", src="@/assets/curso/tema2/21.svg", alt="")
           .col-lg-7
             p.mb-0 En este orden de ideas, es muy importante cuando los agentes de servicio ingresan a la operación, determinar cuáles son los sistemas de información que se utilizan en la empresa, establecer para cuáles de ellos se requiere su acceso y por supuesto, realizar un buen proceso de entrenamiento que permita garantizar una buena capacitación en el uso de estas herramientas, especialmente porque se debe tener presente que si bien los sistemas agilizan procesos y están soportados sobre tecnología, un inadecuado uso de estos puede tener grandes implicaciones no solo en temas de experiencia del cliente, sino en reprocesos e incluso hasta en temas legales, dado que para cierto tipo de requerimientos se tienen unos tiempos específicos de respuesta, que en caso de no tenerse podría llevar a la pérdida del cliente y a multas para la compañía.
 </template>

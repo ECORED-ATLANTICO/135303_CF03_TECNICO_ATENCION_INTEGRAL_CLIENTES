@@ -24,13 +24,13 @@
     .row.justify-content-center.align-items-stretch.mb-4.mb-lg-5
       .col-md-8.col-lg-6.mb-4.mb-lg-0
         .rounded-4.overflow-hidden.h-100
-          img(data-aos="fade-up", src="@/assets/curso/tema4/1.png", alt="imagen de acompañamiento")
+          img(data-aos="fade-up", src="@/assets/curso/tema4/1.png", alt="")
           .bg-primario-medio.p-4.custom-mh
             h5 Informativos
             p.mb-0 Los usuarios valoran su tiempo, por tanto, se comunican frecuentemente a las empresas con el fin de conocer información sobre canales de venta, horarios de atención, direcciones de sedes/sucursales, precios, características de los productos, políticas comerciales y otros aspectos que consideran básicos de las empresas.
       .col-md-8.col-lg-6
         .rounded-4.overflow-hidden.h-100
-          img(data-aos="fade-up", src="@/assets/curso/tema4/2.png", alt="imagen de acompañamiento")
+          img(data-aos="fade-up", src="@/assets/curso/tema4/2.png", alt="")
           .bg-primario-medio.p-4.custom-mh
             h5 Peticiones, quejas, reclamos, sugerencias, felicitaciones (PQRSF)
             p.mb-0 Las Peticiones (P), Quejas (Q), Reclamos (R), Sugerencias (S) y Felicitaciones (F) son en muchas ocasiones la mayor composición dentro de los requerimientos de los usuarios, ya que la mayoría de sus solicitudes hacia la empresa están enfocadas en ellas. A nivel general, las PQRS hacen alusión a inconformidades o dificultades con la empresa, su personal o los productos adquiridos, mientras que las felicitaciones aluden a un reconocimiento de cliente hacia la empresa y las sugerencias, una visión de mejora desde una perspectiva propositiva. 
@@ -85,14 +85,14 @@
               p.mb-4.mb-lg-0 Manuel llega a la empresa y le indica que requiere una copia de su última factura porque la necesita para legalizar unos viáticos en su empresa, en este caso lo que Manuel está escalando a la empresa es una #[strong petición]; sin embargo, el agente de servicio que atiende su requerimiento lo trata de forma descortés y le indica que esto no es posible, por lo que Manuel indica que interpondrá una #[strong queja] a la empresa por el mal comportamiento del agente de servicio que lo atendió. 
             .col-lg-5
               figure
-                img(src='@/assets/curso/tema4/8.png', alt='Imagen de acompañamiento')
+                img(src='@/assets/curso/tema4/8.png', alt='')
           .row.z-2.justify-content-center.align-items-center
             .col-lg-5
               h5 Ejemplo 2
               p.mb-4.mb-lg-0 Gloria va a pagar su factura en un restaurante, pero al detallar ve que le han cobrado erróneamente, por lo que solicita que se llame al administrador para formular un #[strong reclamo], al llegar a la mesa el administrador le indica que los disculpe, que ya mismo le generan nuevamente la factura con el valor correcto, por lo que el cliente indica que a nivel de #[strong sugerencia], considera importante que se revisen las facturas por parte de los meseros antes de entregarlas a los comensales.
             .col-lg-5
               figure
-                img(src='@/assets/curso/tema4/8.png', alt='Imagen de acompañamiento')
+                img(src='@/assets/curso/tema4/8.png', alt='')
 
     p.mb-4.mb-lg-5 A continuación, se enlista todo lo que tiene que ver con PQRSF:
 
@@ -127,7 +127,7 @@
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-4.col-lg-4.col-xl-3.d-none.d-lg-block
         figure
-          img.mb-4.mb-lg-0(data-aos="fade-down-right", src="@/assets/curso/tema4/10.png", alt="descripcion")
+          img.mb-4.mb-lg-0(data-aos="fade-down-right", src="@/assets/curso/tema4/10.png", alt="")
       .col-lg-8.col-xl-7
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta custom-acordeon")
           .row(titulo="Soporte técnico")
@@ -158,7 +158,7 @@
     .row.justify-content-center.align-items-center.mb-4.z-2
       .col-sm-8.col-lg-4
         figure
-          img.mb-4.mb-lg-0(data-aos="fade-down-right", src="@/assets/curso/tema4/11.png", alt="Imagen de acompañamiento")
+          img.mb-4.mb-lg-0(data-aos="fade-down-right", src="@/assets/curso/tema4/11.png", alt="")
       .col-lg-6
         p Con el fin de comprender de manera asertiva el lenguaje comunicacional en los procesos de atención al cliente y antes de ver el paso a paso para la gestión de requerimientos, se hace necesario conocer algunos conceptos básicos que se tienen a nivel operativo, en este sentido, surgen: #[strong la creación del caso, como el momento en el que se formaliza el requerimiento por parte del cliente hacia la empresa; el escalamiento del caso], obedece al momento en el que el agente de servicio debe direccionar el requerimiento para que sea gestionado por otra persona o área de la compañía y el cierre del caso se da cuando el recurso que está atendiendo el requerimiento tiene la competencia para dar la solución al cliente.
 
@@ -190,7 +190,7 @@
             h5.mb-0 Agente de servicio con alcance para dar gestión al requerimiento y cerrarlo
           .col-3.col-lg-3.col-xl-2
             figure
-              img.img-85(src='@/assets/curso/tema4/13.svg', alt='Texto que describa la imagen')
+              img.img-85(src='@/assets/curso/tema4/13.svg', alt='')
         p El agente de servicio recibe una llamada de un cliente indicando que requiere realizar una devolución de un pedido que llegó con la talla equivocada, el primer paso que hace el agente es validar los datos de la persona que realiza la llamada, una vez realizada la revisión en el CRM y valida que efectivamente la persona sí hizo el pedido y que adicional se encuentra en los días hábiles para realizar el cambio del producto, por lo que procede a ingresarlo en el sistema de información y le informa al cliente que en el transcurso de 5 días hábiles recibirá el nuevo producto y deberá también tener listo el enviado previamente para entregarlo al domiciliario.
         p.mb-0 Estado del caso: cerrado.
       .col-12.col-md-6.p-4.bg-secundario-claro(data-aos="zoom-in-left")
@@ -224,35 +224,35 @@
               p.mb-4.mb-lg-0 Si bien las empresas tienen estipulados los protocolos de servicio, justamente con el fin de estandarizar procesos y formas de atención, desde la conversación y la forma de entablar la relación con el cliente los agentes de servicio deben mostrarse empáticos, y para ello hay una pregunta clave ¿qué haría si lo que está mencionado el cliente me estuviera pasando a mí?, frecuentemente ponerse en el lugar del otro, ayuda a tener relaciones más constructivas.
             .col-lg-5
               figure
-                img(src='@/assets/curso/tema4/15.png', alt='Imagen de acompañamiento')
+                img(src='@/assets/curso/tema4/15.png', alt='')
           .row.z-2.justify-content-center.align-items-center
             .col-lg-5
               h5 Escucha
               p.mb-4.mb-lg-0 El principio de una comunicación efectiva es la escucha, por eso, el agente de servicio debe tener esta actitud hacia su cliente, esto no solo le permitirá ser más asertivo en la forma de abordar el requerimiento, sino que también generará un ambiente de interés y confianza.
             .col-lg-5
               figure
-                img(src='@/assets/curso/tema4/19.png', alt='Imagen de acompañamiento')
+                img(src='@/assets/curso/tema4/19.png', alt='')
           .row.z-2.justify-content-center.align-items-center
             .col-lg-5
               h5 Flexibilidad
               p.mb-4.mb-lg-0 Ello no significa pasarse por alto el protocolo de servicio, al contrario, el reto es cómo aplicar el protocolo, mostrándose comprometido con el cliente en tratar de dar solución al requerimiento, implica buscar alternativas y espacios para la concertación. Bajo esta perspectiva se debe tener presente que flexibilidad no implica saltarse el debido proceso, ni pasar por encima de los lineamientos técnicos, lo que propende es aplicar el principio de la apertura.
             .col-lg-5
               figure
-                img(src='@/assets/curso/tema4/16.png', alt='Imagen de acompañamiento')
+                img(src='@/assets/curso/tema4/16.png', alt='')
           .row.z-2.justify-content-center.align-items-center
             .col-lg-5
               h5 Entender la individualidad
               p.mb-4.mb-lg-0 Si bien las personas son sujetos activos dentro de una comunidad, en el momento de interactuar con un cliente, se deben dejar de lado los estereotipos, las pretensiones y asociaciones negativas que se tengan, por el contrario, el enfoque de servicio actual se enfoca en brindar experiencias memorables a partir del entendimiento de la individualidad.
             .col-lg-5
               figure
-                img(src='@/assets/curso/tema4/17.png', alt='Imagen de acompañamiento')
+                img(src='@/assets/curso/tema4/17.png', alt='')
           .row.z-2.justify-content-center.align-items-center
             .col-lg-5
               h5 Respeto por la diferencia
               p.mb-4.mb-lg-0 Indistinto de las condiciones físicas, mentales, económicas o comportamentales, todos los clientes tienen como factor común ser seres humanos, por tanto, merecen tener consideración y valoración de sus necesidades, y bajo este panorama, donde los agentes de servicio son la cara de la empresa y deben ser los primeros embajadores del respeto.
             .col-lg-5
               figure
-                img(src='@/assets/curso/tema4/18.png', alt='Imagen de acompañamiento')
+                img(src='@/assets/curso/tema4/18.png', alt='')
 
 </template>
 
