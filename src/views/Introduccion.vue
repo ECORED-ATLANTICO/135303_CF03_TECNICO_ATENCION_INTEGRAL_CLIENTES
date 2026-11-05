@@ -12,8 +12,7 @@
     
     figure.mb-5
       .video.mb-2
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/sPaHxbTNR8k" title="Recepción de requerimientos de clientes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/O96Jw2nFQGw?si=DjbqcjMJSJKQtgWU" title="Recepción de requerimientos de clientes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 </template>
 
