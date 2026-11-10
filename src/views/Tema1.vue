@@ -69,7 +69,7 @@
       .row.justify-content-center.align-items-center
         .col-12.col-sm-8.col-lg-4(data-aos="fade-right")
           figure
-            img.img-250(src='@/assets/curso/tema1/7.svg' alt='AvatarTop')
+            img.img-250(src='@/assets/curso/tema1/7.svg' alt='')
         .col-12.col-lg-6.align-items-center(data-aos="fade-left")
           div.p-4.p-lg-5
             p Para comprender la dinámica de las empresas en Colombia, lo primero que se debe tener claro es la perspectiva legal. En este orden de ideas, surgen algunos conceptos que se deben apropiar:

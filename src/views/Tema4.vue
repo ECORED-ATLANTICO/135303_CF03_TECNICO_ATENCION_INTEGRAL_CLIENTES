@@ -35,32 +35,7 @@
             h5 Peticiones, quejas, reclamos, sugerencias, felicitaciones (PQRSF)
             p.mb-0 Las Peticiones (P), Quejas (Q), Reclamos (R), Sugerencias (S) y Felicitaciones (F) son en muchas ocasiones la mayor composición dentro de los requerimientos de los usuarios, ya que la mayoría de sus solicitudes hacia la empresa están enfocadas en ellas. A nivel general, las PQRS hacen alusión a inconformidades o dificultades con la empresa, su personal o los productos adquiridos, mientras que las felicitaciones aluden a un reconocimiento de cliente hacia la empresa y las sugerencias, una visión de mejora desde una perspectiva propositiva. 
 
-    //- .row.align-items-stretch.mb-xl-5
-    //-   .col-md-6.col-lg-4.col-xl-3.offset-xl-2
-    //-     .tarjeta-container.mb-4.custom-mh
-    //-       .position-relative.bg-secundario-medio.p-4.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.flex-column.justify-content-center
-    //-         img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema4/3.svg' alt='AvatarTop')
-    //-         p.ms-4.mb-0 #[strong Soporte técnico]
-    //-   .col-md-6.col-lg-4.col-xl-2
-    //-     .tarjeta-container.mb-4.custom-mh
-    //-       .position-relative.bg-secundario-medio.p-4.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.flex-column.justify-content-center
-    //-         img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema4/4.svg' alt='AvatarTop')
-    //-         p.ms-4.mb-0 #[strong Pedidos]
-    //-   .col-md-6.col-lg-4.col-xl-3
-    //-     .tarjeta-container.mb-4.custom-mh
-    //-       .position-relative.bg-secundario-medio.p-4.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.flex-column.justify-content-center
-    //-         img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema4/5.svg' alt='AvatarTop')
-    //-         p.ms-4.mb-0 #[strong Televentas]
-    //-   .col-md-6.col-lg-4.col-xl-3.offset-xl-3
-    //-     .tarjeta-container.mb-4.custom-mh
-    //-       .position-relative.bg-secundario-medio.p-4.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.flex-column.justify-content-center
-    //-         img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema4/6.svg' alt='AvatarTop')
-    //-         p.ms-4.mb-0 #[strong Cobranza]
-    //-   .col-md-6.col-lg-4.col-xl-3
-    //-     .tarjeta-container.mb-4.custom-mh
-    //-       .position-relative.bg-secundario-medio.p-4.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.flex-column.justify-content-center
-    //-         img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema4/7.svg' alt='AvatarTop')
-    //-         p.ms-4.mb-0 #[strong Sondeos]
+    
 
     .row.justify-content-center.mb-4.mb-lg-5
       .col-lg-10.col-xl-8
@@ -199,7 +174,7 @@
             h5.mb-0 Agente de servicio NO tiene alcance para dar gestión al requerimiento y escalarlo
           .col-3.col-lg-3.col-xl-2
             figure
-              img.img-85(src='@/assets/curso/tema4/14.svg', alt='Texto que describa la imagen')
+              img.img-85(src='@/assets/curso/tema4/14.svg', alt='')
         p El agente de servicio recibe una llamada de un cliente indicando que su servicio de Internet no funciona, el agente procede a realizar las validaciones sobre el usuario, una vez identifica que el suscriptor sí es quien dice ser, registra en el CRM el daño y le informa al cliente que el caso ha sido creado, escalando el caso para que sea atendido por el equipo de mantenimiento de redes quienes en el transcurso del día irán a su domicilio a resolver la situación.
         p.mb-0 Estado del caso: escalado.
 

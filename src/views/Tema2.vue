@@ -31,11 +31,11 @@
     .row.justify-content-center
       .col-xl-10
         h4(data-aos='zoom-in-right').mb-4
-          span.etiqueta-title Importancia de los sistemas de Información
+          span.etiqueta-title Importancia de los sistemas de información
 
     .row.justify-content-center.mb-4.mb-lg-5
       .col-xl-10
-        p.mb-0 Los sistemas de Información probablemente nunca han cobrado tanta vigencia como actualmente, aquellos tiempos en donde las cuentas e informes se hacían en hojas en papel bond o en calculadoras quedaron atrás, los S.I. llegaron para quedarse, por lo que cada vez son más completos y útiles para las empresas y sus colaboradores. A continuación, se listan algunos aspectos que muestran de una forma explícita por qué los sistemas de información son tan relevantes para las compañías, esto es:
+        p.mb-0 Los sistemas de información probablemente nunca han cobrado tanta vigencia como actualmente, aquellos tiempos en donde las cuentas e informes se hacían en hojas en papel bond o en calculadoras quedaron atrás, los S.I. llegaron para quedarse, por lo que cada vez son más completos y útiles para las empresas y sus colaboradores. A continuación, se listan algunos aspectos que muestran de una forma explícita por qué los sistemas de información son tan relevantes para las compañías, esto es:
 
 
     .row.justify-content-center
